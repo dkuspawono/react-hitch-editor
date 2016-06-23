@@ -1,33 +1,30 @@
 {
-  "name": "react-medium-editor",
-  "version": "1.7.1",
-  "description": "React wrapper for medium-editor",
+  "name": "react-hitch-editor",
+  "version": "1.0.0",
+  "description": "Hitch text and documentation editor",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server -c --port=8899",
     "build": "babel lib --out-dir dist && webpack -p",
-    "deploy": "npm run build && github-pages-deploy",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "github-pages-deploy": {
-    "src": "builds"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/wangzuo/react-medium-editor.git"
+    "url": "https://github.com/hitchhq/react-hitch-editor.git"
   },
   "keywords": [
     "react",
     "react-component",
+    "hitch",
     "medium",
     "editor"
   ],
   "author": "Wang Zuo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wangzuo/react-medium-editor/issues"
+    "url": "https://github.com/hitchhq/react-hitch-editor/issues"
   },
-  "homepage": "https://github.com/wangzuo/react-medium-editor",
+  "homepage": "https://github.com/hitchhq/react-hitch-editor",
   "peerDependencies": {
     "react": "^0.14.0 || ^15.0.0",
     "react-dom": "^0.14.0 || ^15.0.0"
@@ -43,7 +40,6 @@
     "babel-preset-es2015": "^6.1.2",
     "babel-preset-react": "^6.1.2",
     "css-loader": "^0.22.0",
-    "github-pages-deploy": "0.0.3",
     "static-site-generator-webpack-plugin": "^2.0.1",
     "style-loader": "^0.13.0",
     "webpack": "^1.12.13",
